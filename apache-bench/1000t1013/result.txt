@@ -1,0 +1,221 @@
+better@better-VirtualBox:~/HM/apache-bench$ python3 benchmark.py
+./run-ab.sh 35.221.83.179 4 test-04-a.tsv
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.221.83.179 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        Apache/2.4.25
+Server Hostname:        35.221.83.179
+Server Port:            80
+
+Document Path:          /
+Document Length:        53278 bytes
+
+Concurrency Level:      4
+Time taken for tests:   47.249 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      53539000 bytes
+HTML transferred:       53278000 bytes
+Requests per second:    21.16 [#/sec] (mean)
+Time per request:       188.996 [ms] (mean)
+Time per request:       47.249 [ms] (mean, across all concurrent requests)
+Transfer rate:          1106.56 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       38   40   3.6     40     112
+Processing:   134  148  12.5    145     288
+Waiting:       56   68  12.0     65     210
+Total:        173  189  14.8    185     371
+
+Percentage of the requests served within a certain time (ms)
+  50%    185
+  66%    190
+  75%    193
+  80%    195
+  90%    201
+  95%    207
+  98%    215
+  99%    225
+ 100%    371 (longest request)
+./run-ab.sh 35.221.83.179 16 test-16-a.tsv
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.221.83.179 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        Apache/2.4.25
+Server Hostname:        35.221.83.179
+Server Port:            80
+
+Document Path:          /
+Document Length:        53278 bytes
+
+Concurrency Level:      16
+Time taken for tests:   14.033 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      53539000 bytes
+HTML transferred:       53278000 bytes
+Requests per second:    71.26 [#/sec] (mean)
+Time per request:       224.524 [ms] (mean)
+Time per request:       14.033 [ms] (mean, across all concurrent requests)
+Transfer rate:          3725.87 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       38   41   2.4     40      64
+Processing:   137  182  42.0    167     410
+Waiting:       58  100  41.3     86     326
+Total:        178  223  42.0    208     456
+
+Percentage of the requests served within a certain time (ms)
+  50%    208
+  66%    220
+  75%    232
+  80%    240
+  90%    286
+  95%    318
+  98%    354
+  99%    378
+ 100%    456 (longest request)
+./run-ab.sh 35.200.84.15 4 test-04-b.tsv
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.200.84.15 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        Apache/2.4.25
+Server Hostname:        35.200.84.15
+Server Port:            80
+
+Document Path:          /
+Document Length:        53251 bytes
+
+Concurrency Level:      4
+Time taken for tests:   47.946 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      53511000 bytes
+HTML transferred:       53251000 bytes
+Requests per second:    20.86 [#/sec] (mean)
+Time per request:       191.783 [ms] (mean)
+Time per request:       47.946 [ms] (mean, across all concurrent requests)
+Transfer rate:          1089.92 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       38   41  11.8     40     253
+Processing:   133  150  29.9    144     551
+Waiting:       56   68  16.1     64     258
+Total:        172  191  37.6    184     590
+
+Percentage of the requests served within a certain time (ms)
+  50%    184
+  66%    188
+  75%    190
+  80%    192
+  90%    198
+  95%    208
+  98%    320
+  99%    440
+ 100%    590 (longest request)
+./run-ab.sh 35.200.84.15 16 test-16-b.tsv
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 35.200.84.15 (be patient)
+Completed 100 requests
+Completed 200 requests
+Completed 300 requests
+Completed 400 requests
+Completed 500 requests
+Completed 600 requests
+Completed 700 requests
+Completed 800 requests
+Completed 900 requests
+Completed 1000 requests
+Finished 1000 requests
+
+
+Server Software:        Apache/2.4.25
+Server Hostname:        35.200.84.15
+Server Port:            80
+
+Document Path:          /
+Document Length:        53251 bytes
+
+Concurrency Level:      16
+Time taken for tests:   13.673 seconds
+Complete requests:      1000
+Failed requests:        0
+Total transferred:      53511000 bytes
+HTML transferred:       53251000 bytes
+Requests per second:    73.13 [#/sec] (mean)
+Time per request:       218.775 [ms] (mean)
+Time per request:       13.673 [ms] (mean, across all concurrent requests)
+Transfer rate:          3821.77 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       38   41   2.3     40      59
+Processing:   135  177  31.9    167     340
+Waiting:       58   95  31.5     86     262
+Total:        174  217  32.2    208     380
+
+Percentage of the requests served within a certain time (ms)
+  50%    208
+  66%    221
+  75%    230
+  80%    238
+  90%    261
+  95%    283
+  98%    322
+  99%    338
+ 100%    380 (longest request)
+python3 ../visuals/hhh.py test-04 "Test with 4 pools" test-04-a.tsv test-04-b.tsv
+The first argument is the output file name, the second argument is its title, and followings are TSV files.
+python3 ../visuals/hhh.py test-16 "Test with 16 pools" test-16-a.tsv test-16-b.tsv
+The first argument is the output file name, the second argument is its title, and followings are TSV files.
