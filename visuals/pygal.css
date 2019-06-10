@@ -1,0 +1,14 @@
+{{ id }}.color-0 {
+  stroke: #800000;
+  fill: #800000;
+}
+
+{{ id }}.color-1 {
+  stroke: #80c4ff;
+  fill: #80c4ff;
+}
+
+{{ id }}.reactive {
+  fill-opacity: 1;
+  stroke-opacity: 1;
+}
